@@ -50,9 +50,11 @@ Algumas ações serão necessárias como **OBTER A CONTA**, **OBTER A CORRIDA**,
 
 ```sql
 drop schema cccat cascade;
-
+```
+```sql
 create schema cccat;
-
+```
+```sql
 create table cccat.account (
 
 account_id uuid,
@@ -74,7 +76,8 @@ password text,
 password_algorithm text
 
 );
-
+```
+```sql
 create table cccat.ride (
 
 ride_id uuid,
@@ -100,7 +103,8 @@ to_long numeric,
 date timestamp
 
 );
-
+```
+```sql
 create table cccat.position (
 
 position_id uuid primary key,
