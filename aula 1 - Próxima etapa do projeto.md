@@ -7,7 +7,9 @@ https://github.com/rodrigobranas/cccat18_1/blob/master/src/signup.ts
 ## UC1 - Signup
 
 Ator: Passageiro, Motorista
+
 Input: name, email, cpf, carPlate, password, isPassenger, isDriver
+
 Output: account_id
 
 - deve verificar se o email já existe e lançar um erro caso já exista
@@ -20,6 +22,7 @@ Para testar adequadamente o UC1 será necessário criar o **UC2 - GetAccount**.
 ## UC2 - GetAccoun
 
 Input: account_id
+
 Output: todas as informações da conta
 
 - O objetivo é refatorar o código utilizando as técnicas de refactoring vistas na aula 1 como renomear variável, extrair método, simplificar condicional, tratar exceções adequadamente, remover comentários, entre outras. Não se preocupe com o design e a arquitetura por enquanto, separe as responsabilidades seguindo o que você acredita ser o que faz mais sentido pra você. Na aula 2 vamos abordar o design de acordo com a Arquitetura Hexagonal.
